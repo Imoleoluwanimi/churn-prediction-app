@@ -54,8 +54,8 @@ with st.form("churn_form"):
         estimated_salary = st.number_input("Estimated Salary (USD)", min_value=0.0, max_value=500000.0, value=10000.0, step=1000.0)
 
     with col2:
-        geography = st.selectbox("Geography", ["France", "Germany", "Spain"])
-        gender = st.selectbox("Gender", ["Male", "Female"])
+        geography = st.selectbox("Geography", ["Germany", "France", "Spain"])
+        gender = st.selectbox("Gender", ["Female", "Male"])
         num_of_products = st.number_input("Number of Products", min_value=1, max_value=4, value=1, step=1)
         has_cr_card = st.number_input("Has Credit Card (1 for Yes, 0 for No)", min_value=0, max_value=1, value=0, step=1)
         is_active_member = st.number_input("Active Member (1 for Yes, 0 for No)", min_value=0, max_value=1, value=0, step=1)
