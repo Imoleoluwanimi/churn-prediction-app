@@ -50,7 +50,7 @@ with st.form("churn_form"):
         credit_score = st.number_input("Credit Score", min_value=0, max_value=10000, value=200, step=10)
         age = st.number_input("Age", min_value=18, max_value=100, value=70, step=1)
         tenure = st.number_input("Tenure (Years)", min_value=0, max_value=40, value=1, step=1)
-        balance = st.number_input("Balance (USD)", min_value=0.0, max_value=1000000.0, value=2000, step=100.0)
+        balance = st.number_input("Balance (USD)", min_value=0.0, max_value=1000000.0, value=2000.0, step=100.0)
         estimated_salary = st.number_input("Estimated Salary (USD)", min_value=0.0, max_value=500000.0, value=10000.0, step=1000.0)
 
     with col2:
