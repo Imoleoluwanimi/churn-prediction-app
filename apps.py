@@ -38,7 +38,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 Customer Churn Prediction App")
+st.title("📊US Bank Customer Churn Prediction App")
 st.write("Predict whether a customer is likely to churn based on their details.")
 
 # Input Fields
